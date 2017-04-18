@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Armcha.SpaceNavigationView</id>
+        <version>1.6.0</version>
+        <description>Xamarin Binding Library - Armcha SpaceNavigationView</description>
+        <authors>Vu Duc Tuyen</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Armcha SpaceNavigationView</title>
+        <releaseNotes>Armcha SpaceNavigationView v1.6.0</releaseNotes>
+        <summary>Xamarin Binding Library - Armcha SpaceNavigationView</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/xam-spacenavigationview</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, SpaceNavigationView</tags>
+        <dependencies>
+            <dependency id="Xamarin.Android.Support.Design" version="25.1.0"/>
+            <dependency id="Xamarin.Android.Support.v4" version="25.1.0"/>
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="25.1.0"/>
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Armcha.SpaceNavigationView/bin/Release/Naxam.Armcha.SpaceNavigationView.dll" target="lib/MonoAndroid10/Naxam.Armcha.SpaceNavigationView.dll" />
+    </files>
+</package>
