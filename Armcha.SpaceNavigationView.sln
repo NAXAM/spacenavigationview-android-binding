@@ -1,9 +1,16 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Naxam.Armcha.SpaceNavigationView", "Naxam.Armcha.SpaceNavigationView\Naxam.Armcha.SpaceNavigationView.csproj", "{6F0ECC59-1ECA-42AB-B6E9-8ADED1522503}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "Demo\Demo.csproj", "{F9D0B572-B000-46C8-831B-A3940E4C5D22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{D71563AD-B3F5-4199-8F3C-69619CDDD963}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		space-nav.nuspec = space-nav.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,7 +24,11 @@ Global
 		{6F0ECC59-1ECA-42AB-B6E9-8ADED1522503}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F9D0B572-B000-46C8-831B-A3940E4C5D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F9D0B572-B000-46C8-831B-A3940E4C5D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D0B572-B000-46C8-831B-A3940E4C5D22}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
 		{F9D0B572-B000-46C8-831B-A3940E4C5D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9D0B572-B000-46C8-831B-A3940E4C5D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
